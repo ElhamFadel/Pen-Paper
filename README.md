@@ -7,4 +7,4 @@ Some features that could be included in the project are:
 - [ ] Creating, editing, and deleting blog posts
 - [ ] Adding comments to blog posts
 - [ ] A simple search feature for finding specific posts
-- [ ] Ability for users to follow other users and view their posts on a personalized feed
+- [ ] Ability for users to follow other users and view their posts on a personalized feed***

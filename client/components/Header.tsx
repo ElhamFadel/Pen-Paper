@@ -1,13 +1,12 @@
 import Image from 'next/image';
 import logo from '../images/logo.png';
-import Link from 'next/link';
 import { HiSun } from 'react-icons/hi';
 interface headerProps {}
 
 const Header: React.FC<headerProps> = ({}) => {
   return (
     <>
-      <header className="bg-whitesmoke border-b border-gray-300">
+      <header className="bg-whitesmoke border-b border-gray-300 fixed top-0 left-0 right-0 border-gray z-10 opacity-90 shadow-sm">
         <div className="container mx-auto px-32 py-3 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Image src={logo} alt="Pen Logo" className="h-8 w-auto" />

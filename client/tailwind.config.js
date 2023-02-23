@@ -11,6 +11,7 @@ module.exports = {
       text: '#4A5568', // a medium gray color for body text
       white: '#FFFFFF', // a pure white color for text and backgrounds
       black: '#000000', // a pure black color for the icon and other accents
+      gray: '#bbb4ad',
     },
     extend: {},
   },

@@ -2,7 +2,6 @@ import React, { ReactNode } from 'react';
 import Head from 'next/head';
 import Header from './Header';
 import Nav from './Nav';
-import { Hero } from './Hero';
 import { MainHome } from './MainHome';
 type Props = {
   children?: ReactNode;
@@ -25,7 +24,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     </Head>
     <Header />
     {/* body */}
-    <main className="container min-h-screen mx-auto px-32 py-3 flex items-center justify-between bg-text">
+    <main className="container min-h-screen mx-auto px-32 py-3 flex items-center justify-between ">
       {/* nav */}
       <Nav />
       {/* main */}

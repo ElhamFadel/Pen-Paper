@@ -10,3 +10,13 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #e7e7e7;
 }
+/* customize pagination bullet */
+span.swiper-pagination-bullet {
+  @apply bg-gray opacity-50 w-2 h-2  rounded-sm cursor-pointer;
+}
+span.swiper-pagination-bullet:hover {
+  @apply bg-gray opacity-80;
+}
+span.swiper-pagination-bullet-active {
+  @apply bg-gray opacity-100 w-5;
+}

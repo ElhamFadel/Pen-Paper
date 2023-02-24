@@ -1,48 +1,46 @@
-import {
-  FaHome,
-  FaCode,
-  FaEye,
-  FaGithub,
-  FaSearch,
-  FaInfoCircle,
-  FaBook,
-  FaMobileAlt,
-} from 'react-icons/fa';
+import { FaSearch, FaMobileAlt } from 'react-icons/fa';
+import { BiCode } from 'react-icons/bi';
+import { TiHome } from 'react-icons/ti';
+import { HiLightBulb } from 'react-icons/hi';
+import { AiFillGithub } from 'react-icons/ai';
+import { RiCameraLensFill } from 'react-icons/ri';
+import { FcBusinesswoman } from 'react-icons/fc';
+import { BsFileCodeFill, BsChatSquareQuoteFill } from 'react-icons/bs';
 import NavItem from './NavItem';
 interface NavProps {}
 
 const navItemObject = [
   {
     label: 'Home',
-    Icon: FaHome,
+    Icon: TiHome,
   },
   {
     label: 'Code',
-    Icon: FaCode,
+    Icon: BiCode,
   },
   {
     label: 'Insights',
-    Icon: FaEye,
+    Icon: HiLightBulb,
   },
   {
     label: 'Github',
-    Icon: FaGithub,
+    Icon: AiFillGithub,
   },
   {
     label: 'Lens',
-    Icon: FaSearch,
+    Icon: RiCameraLensFill,
   },
   {
     label: 'About',
-    Icon: FaInfoCircle,
+    Icon: FcBusinesswoman,
   },
   {
     label: 'Guestbook',
-    Icon: FaBook,
+    Icon: BsChatSquareQuoteFill,
   },
   {
     label: 'App',
-    Icon: FaMobileAlt,
+    Icon: BsFileCodeFill,
   },
 ];
 const Nav: React.FC<NavProps> = ({}) => {

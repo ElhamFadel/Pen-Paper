@@ -20,3 +20,6 @@ span.swiper-pagination-bullet:hover {
 span.swiper-pagination-bullet-active {
   @apply bg-gray opacity-100 w-5;
 }
+.active {
+  @apply bg-gray opacity-100 w-5;
+}
